@@ -65,4 +65,94 @@ nav{
     background-color: #e7b7cc;
     transition: 1s background;
 }
+.conteudo{
+    background: url(fundo.jpg);
+    
+}
 
+.container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  *{box-sizing: border-box;}
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+  }
+  .slide{
+      display: none;
+  }
+  .imgslide{
+  vertical-align: middle;
+  
+  
+  }
+  .botaoA, .botaoP{
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 15px;
+      margin-top: -22px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.4s ease;
+      user-select: none;
+  }
+  .botaoA{
+      left: 0;
+      border-radius: 0 5px 5px 0;
+  }
+  .botaoP{
+      right: 0;
+      border-radius: 0 5px 5px 0;
+  }
+  .botaoA:hover, .botaoP:hover, .textoslide{
+      background-color:rgb(211, 97, 97);
+  } 
+  .textoslide{
+  color:#fff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: 0.4 ease;
+  bottom: 0px;
+  }
+  .numeroslide{
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0px;
+  }
+  .indicador{
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    background-color:#bbb;
+    border-radius: 50%; display: inline-block;
+    transition: background-color 0.5s ease; 
+  }
+  
+  .ativo, .indicador:hover{
+  background-color: #202020;
+  }
+  .fade{
+    animation-name: fade;
+    animation-duration: 1.3s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.3s;
+  }
+  @-webkit-keyframes fade{
+   from{opacity: .4;}
+   to{opacity: 1;}
+  }
+  @keyframes fade{
+      from{opacity: .4;}
+      to{opacity: 1;}
+     }
