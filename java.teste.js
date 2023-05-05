@@ -25,5 +25,5 @@ function mostrarSlide(ns) {
         indicadores[i].className = indicadores[i].className.replace("ativo", "");
     }
     slides[numSlide-1].style.display="block";
-    indicador[numSlide-1].className += "ativo";
+    indicadores[numSlide-1].className += "ativo";
 }
