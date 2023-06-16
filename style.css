@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: #ffff;
    
 }
 
@@ -10,16 +12,20 @@ nav{
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     align-items: center;
-    color: #ffff;
     background-color: #e290b5;
     height: 13vh;
+
 }
 
 
 .logo{
-    
     font-weight: 800;
     font-size: 25px;
+    
+}
+
+.logo1{
+    width: 240px;
 }
 
 .nav-itens {
@@ -79,14 +85,14 @@ nav{
 .slide{
       display: none;
   }
+
 .imgslide{
   width:  100%;
   height: 550px;
   margin: auto;
   display: block;
-  
-  
   }
+
 .botaoA, .botaoP{
       cursor: pointer;
       position: absolute;
@@ -100,17 +106,21 @@ nav{
       transition: 0.4s ease;
       user-select: none;
   }
+
 .botaoA{
       left: 0;
       border-radius: 0 5px 5px 0;
   }
+
 .botaoP{
       right: 0;
       border-radius: 0 5px 5px 0;
   }
+
 .botaoA:hover, .botaoP:hover, .textoslide{
       background-color: #e7b7cc;
   } 
+
 .textoslide{
   color:#fff;
   font-size: 15px;
@@ -164,7 +174,6 @@ main    {
     padding: 5px;
 }
     
-    
 .content { 
     float:left; 
     width:100%; 
@@ -175,15 +184,10 @@ main    {
     padding-left: 10px;
 }
 
-
-
 .colfooter { 
-    
-    width:100%; 
     height:auto; 
     float:left; 
     margin-bottom:2em;
-
 }
 
 .colfooter ul        { width:100%; float:left; }
