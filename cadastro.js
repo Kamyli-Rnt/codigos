@@ -18,18 +18,6 @@ function mascara(i,t){
        if (v.length == 11) i.value += "-";
     }
  
-    if(t == "cnpj"){
-       i.setAttribute("maxlength", "18");
-       if (v.length == 2 || v.length == 6) i.value += ".";
-       if (v.length == 10) i.value += "/";
-       if (v.length == 15) i.value += "-";
-    }
- 
-    if(t == "cep"){
-       i.setAttribute("maxlength", "9");
-       if (v.length == 5) i.value += "-";
-    }
- 
     if(t == "tel"){
        if(v[0] == 9){
           i.setAttribute("maxlength", "10");
