@@ -18,14 +18,8 @@ nav{
 }
 
 
-.logo{
-    font-weight: 800;
-    font-size: 25px;
-    
-}
-
 .logo1{
-    width: 240px;
+    width: 230px;
 }
 
 .nav-itens {
@@ -174,6 +168,8 @@ main    {
     padding: 5px;
 }
     
+
+
 .content { 
     float:left; 
     width:100%; 

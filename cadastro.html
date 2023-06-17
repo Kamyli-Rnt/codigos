@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js"></script>
+
+</head>
+<body>
+
+    <div class="page"> 
+        <div class="logo"><a href="index.html"><img class="logo1" src="logo.jpeg" alt=""></a></div>
+        <div class="links"></div>
+        <form method="POST" class="formCadastro">
+            <h1>Cadastro</h1>
+            <p>Digite os seus dados no campo abaixo.</p>
+            <label for="nome">Nome</label>
+            <input type="nome" placeholder="Digite seu nome">
+            <label for="campo3">Data de Nascimento</label>
+            <input oninput="mascara(this, 'data')" id="campo3" type="text" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off" name="customer['birthdate']">
+            <label for="campo4">CPF</label>
+            <input oninput="mascara(this, 'cpf')" id="campo4" type="text" class="form-control" placeholder="xxx.xxx.xxx-xx" autocomplete="off" name="customer['cpf']">
+            <label for="campo7">Telefone</label>
+            <input oninput="mascara(this, 'tel')" id="campo7" type="text" class="form-control" placeholder="xxxxx-xxxx" autocomplete="off" name="customer['tel']">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="crie uma senha" />
+            <input type="submit" value="Acessar" class="btn" />
+        </form>
+    </div>
+    
+</body>
+</html>

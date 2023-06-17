@@ -22,7 +22,7 @@ body {
     background-color: #e290b5;
 }
 
-.formLogin {
+.formCadastro {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -32,25 +32,25 @@ body {
     gap: 5px
 }
 
-.areaLogin img {
+.areaCadastro img {
     width: 420px;
 }
 
-.formLogin h1 {
+.formCadastro h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
     font-size: 2.3em;
 }
 
-.formLogin p {
+.formCadastro p {
     display: inline-block;
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
 }
 
-.formLogin input {
+.formCadastro input {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -62,16 +62,16 @@ body {
 }
 
 
-.formLogin input:focus {
+.formCadastro input:focus {
     border: 1px solid #c1829d;
 }
 
-.formLogin label {
+.formCadastro label {
     font-size: 14px;
     font-weight: 600;
 }
 
-.formLogin a {
+.formCadastro a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
@@ -79,7 +79,7 @@ body {
     transition: all linear 160ms;
 }
 
-.formLogin a:hover {
+.formCadastro a:hover {
     color: #c1829d;
 }
 
