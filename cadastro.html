@@ -16,21 +16,43 @@
         <div class="links"></div>
         <form method="POST" class="formCadastro">
             <h1>Cadastro</h1>
-            <p>Digite os seus dados no campo abaixo.</p>
-            <label for="nome">Nome</label>
-            <input type="nome" placeholder="Digite seu nome">
-            <label for="campo3">Data de Nascimento</label>
-            <input oninput="mascara(this, 'data')" id="campo3" type="text" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off" name="customer['birthdate']">
-            <label for="campo4">CPF</label>
-            <input oninput="mascara(this, 'cpf')" id="campo4" type="text" class="form-control" placeholder="xxx.xxx.xxx-xx" autocomplete="off" name="customer['cpf']">
-            <label for="campo7">Telefone</label>
-            <input oninput="mascara(this, 'tel')" id="campo7" type="text" class="form-control" placeholder="(xx) xxxxx-xxxx" autocomplete="off" name="customer['tel']">
-            <label for="email">E-mail</label>
-            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-            <label for="password">Senha</label>
-            <input type="password" placeholder="crie uma senha" />
-            <input type="submit" value="Acessar" class="btn" />
+            <p>Digite os seus dados no campo abaixo.</p> <br>
+            <div class="p1">
+                <div>
+                <label for="nome">Nome</label><br>
+                <input type="nome" placeholder="Digite seu nome">
+                </div>
+                <div>
+                <label for="campo3">Data de Nascimento</label><br>
+                <input oninput="mascara(this, 'data')" id="campo3" type="text" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off" name="customer['birthdate']">
+                </div>
+            </div>
+            <div class="p1">
+                <div>
+                <label for="campo4">CPF</label><br>
+                <input oninput="mascara(this, 'cpf')" id="campo4" type="text" class="form-control" placeholder="xxx.xxx.xxx-xx" autocomplete="off" name="customer['cpf']">
+                </div>
+                <div>
+                <label for="campo7">Telefone</label><br>
+                <input oninput="mascara(this, 'tel')" id="campo7" type="text" class="form-control" placeholder="(xx) xxxxx-xxxx" autocomplete="off" name="customer['tel']">
+                </div>
+           </div>
+           <div class="p1">
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                </div>
+                <div>
+                    <label for="password">Senha</label><br>
+                    <input type="password" placeholder="crie uma senha" />
+                </div>
+            </div>
+            <div>
+
+                <input type="submit" value="cadastro" class="btn" />
+            </div>
         </form>
+        
     </div>
     
 </body>

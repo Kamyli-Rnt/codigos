@@ -11,6 +11,11 @@ body {
     color: #023047
 }
 
+.p1{
+    display: flex;
+    gap: 50px;
+}
+
 .page {
     display: flex;
     flex-direction: column;
@@ -23,9 +28,11 @@ body {
 }
 
 .formCadastro {
-    display: flex;
+    display: inline;
+    float: left;
+    width: 35%;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 7px;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
