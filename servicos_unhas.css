@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #f8d0e5;
+}
+/*inicio navbar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #e290b5;
+    height: 13vh;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+   bottom: 5px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-itens li a:hover{
+    
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration:underline;
+    
+
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+}
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+/*fimm navbar*/
+.listaservicos{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px;
+    gap: 10px;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f0e5ee;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #e4a3c98c;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    overflow: visible;
+  }
+  
+  .card-details {
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-button {
+    text-decoration: none;
+    text-align: center;
+    -webkit-transform: translate(-50%, 125%);
+    -ms-transform: translate(-50%, 125%);
+    transform: translate(-50%, 125%);
+    width: 70%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ce65a2bb;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-body {
+    color: rgb(32, 32, 32);
+  }
+  
+  /*Text*/
+  .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /*Hover*/
+  .card:hover {
+    border-color: #cf85b0c0;
+  }
+  
+  .card:hover .card-button {
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    opacity: 1;
+  }

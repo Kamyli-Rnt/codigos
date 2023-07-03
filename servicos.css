@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #f8d0e5;
+}
+/*inicio navbar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #e290b5;
+    height: 13vh;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+   bottom: 5px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-itens li a:hover{
+    
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration:underline;
+    
+
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+}
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+/*inicio servicos*/
+
+
+.servicos{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    background-color: #f0e5ee;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  .icon1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200px;
+  }
+  
+  .card1{
+    Position: relative;
+    Width: 35px;
+    height: 50px;
+  }
+
+  .card2{
+    Position: relative;
+    Width: 56px;
+    height: 55px;
+  }
+
+  .card3{
+    Position: relative;
+    Width: 55px;
+    height: 50px;
+  }
+  
+  .card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    height: 270px;
+  }
+  
+  .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+  }
+  
+  .card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover .icon svg path {
+    fill: url('#gradientColor');
+    transition: all 0.3s ease;
+  }
+  
+/*fim serviços*/
+
+

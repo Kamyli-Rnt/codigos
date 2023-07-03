@@ -7,6 +7,7 @@
   form {
     display: flex;
     flex-direction: column;
+ 
   }
   
   label {
@@ -20,7 +21,7 @@
   }
   
   input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #af4ca2;
     color: white;
     cursor: pointer;
   }

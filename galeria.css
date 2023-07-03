@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #f8d0e5;
+}
+/*inicio navbar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #e290b5;
+    height: 13vh;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+   bottom: 5px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-itens li a:hover{
+    
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration:underline;
+    
+
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+}
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+/*fim nav*/
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+  width: 210px;
+  height: 235px;
+  background: #212121;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 20px 30px, rgba(0, 0, 0, 0.3) 10px 1px 53px 3px, rgba(1, 0, 0, 0.2) 0px -1px 3px inset;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.021);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.1deg);
+}
