@@ -28,3 +28,4 @@ function mostrarSlide(ns) {
     slides[numSlide-1].style.display="block";
     indicador[numSlide-1].className += "ativo";
 }
+
