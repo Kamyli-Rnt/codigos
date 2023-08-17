@@ -80,75 +80,82 @@ nav{
     margin: auto; 
 }
 /*fimm navbar*/
-.listaservicos{
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 100px;
-    gap: 10px;
+h1, p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.cardserunha    {
+  
+  width: 700px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin: 75px auto;
 }
 
 .card {
-    width: 190px;
-    height: 254px;
-    border-radius: 20px;
-    background: #f0e5ee;
-    position: relative;
-    padding: 1.8rem;
-    border: 2px solid #e4a3c98c;
-    -webkit-transition: 0.5s ease-out;
-    transition: 0.5s ease-out;
-    overflow: visible;
-  }
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.cardunha {
+  width: 30%;
+  padding: 20px;
   
-  .card-details {
-    height: 100%;
-    gap: .5em;
-    display: grid;
-    place-content: center;
-    font-family: 'Poppins', sans-serif;
-  }
+}
+
+.cardunha img {
   
-  .card-button {
-    text-decoration: none;
-    text-align: center;
-    -webkit-transform: translate(-50%, 125%);
-    -ms-transform: translate(-50%, 125%);
-    transform: translate(-50%, 125%);
-    width: 70%;
-    border-radius: 1rem;
-    border: none;
-    background-color: #ce65a2bb;
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    padding: .5rem 1rem;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    opacity: 0;
-    -webkit-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-  }
+  max-width: 110%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.cardunha2 {
+  text-align: left;
+  background: #fff;
+  width: 70%;
+  border-radius: 6px ;
+  padding: 40px;
+}
+
+.cardunha2 h1 {
+  color: #000000;
+}
+
+.cardunha2 h5 {
+  color: #000000;
+}
+
+.cardunha2 ul {
+  margin-bottom: 40px;
+}
+
+.cardunha2 li {
+  padding-bottom: 6px;
+}
+
+.botao {
+  text-decoration: none;
+  color: #fff;
+  background: #c1829d;
+  padding: 20px 30px;
+  border-radius: 100px;
+  transition: all 500ms ease;
+ 
   
-  .text-body {
-    color: rgb(32, 32, 32);
-  }
-  
-  /*Text*/
-  .text-title {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  /*Hover*/
-  .card:hover {
-    border-color: #cf85b0c0;
-  }
-  
-  .card:hover .card-button {
-    -webkit-transform: translate(-50%, 50%);
-    -ms-transform: translate(-50%, 50%);
-    transform: translate(-50%, 50%);
-    opacity: 1;
-  }
+}
+
+.botao:hover {
+  background: #e7b7cc;
+}

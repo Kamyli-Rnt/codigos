@@ -79,3 +79,84 @@ nav{
     position: relative;
     margin: auto; 
 }
+
+
+h1, p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-weight: 500;
+  }
+  
+  .cardsercilios    {
+    
+    width: 700px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 75px auto;
+  }
+  
+  .card {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .cardcilios {
+    width: 30%;
+    padding: 20px;
+    
+  }
+  
+  .cardcilios img {
+    
+    max-width: 110%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .cardcilios2 {
+    text-align: left;
+    background: #fff;
+    width: 70%;
+    border-radius: 6px ;
+    padding: 40px;
+  }
+  
+  .cardcilios2 h1 {
+    color: #000000;
+  }
+  
+  .cardcilios2 h5 {
+    color: #000000;
+  }
+  
+  .cardcilios2 ul {
+    margin-bottom: 40px;
+  }
+  
+  .cardcilios2 li {
+    padding-bottom: 6px;
+  }
+  
+  .botao {
+    text-decoration: none;
+    color: #fff;
+    background: #c1829d;
+    padding: 20px 30px;
+    border-radius: 100px;
+    transition: all 500ms ease;
+   
+    
+  }
+  
+  .botao:hover {
+    background: #e7b7cc;
+  }
