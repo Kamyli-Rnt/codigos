@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+    background-color: #f8d0e5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*inicio navbar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e290b5;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 13vh;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+    bottom: 5px;
+    margin-right: 350px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+.nav-itens li a:hover{
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+}
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+.informacoes p, h2 {
+color: black;
+}
+
+
+/*incio footer*/
+.content{ 
+    float:left; 
+    width:100%; 
+    display: flex;
+    padding: 3em 0; 
+    background-color: #e290b5;
+    padding-left: 10px;
+}
+
+.colfooter{ 
+    height:auto; 
+    float:left; 
+    margin-bottom:2em;
+}
+
+.colfooter ul        {width:100%; float:left;}
+.colfooter ul li     {padding:0.2em 0em;}
+.colfooter ul li a   {text-decoration:none; color:#ffffff; font-size:1em;}
+.colfooter ul li a i {font-size:0.9em;}
+.colfooter  {font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;}
+.colfooter ul li a:hover {text-decoration:underline; }
+
+.colfooter .titleFooter{ 
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;; 
+    font-size:1.0em; 
+    color:#ffffff; 
+    padding-bottom: 0.5em; 
+    margin-bottom:0.5em; 
+    border-bottom:1px #ffffff solid;
+}
+
+.colfooter p  {font-family: 'Libre Baskerville', serif; font-family: 'Lora', serif; color:#ffffff; font-size:1em; height:25px;} 
+
+.botao{
+    padding: 0,5px 0,5px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    letter-spacing:2px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    margin-right:7px;
+}
+
+.botao::before{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #c1829d;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.botao:hover::before {
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
+}
+
+.botao{
+    font-size:1em;
+    color:#ffffff;
+    text-align:center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    border:1px solid #ffffff;
+    border-radius:3px;
+    overflow: hidden!important;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background: transparent!important;
+    z-index:10;  
+}
+
+.botao:hover{
+    border: 1px solid #e290b5;
+    color: #e7b7cc!important;
+}
+
+.botao::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #ffb2d0;
+    position: absolute;
+    -ms-transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg); 
+    transform: skewX(-15deg);   
+    left: -10%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    box-shadow:2px 0px 14px rgba(218, 70, 181, 0.6);
+} 
+
+.botao::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #eb9bbe;
+    position: absolute;
+    -ms-transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg); 
+    transform: skewX(-15deg);   
+    left: -10%;
+    opacity: 0;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+    -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    box-shadow: 2px 0px 14px rgba(0,0,0,.6);
+}
+
+.botao:hover::before, .botao:hover::before{
+    opacity:1;
+    width: 120%;
+}
+
+.botao:hover::after, .botao:hover::after{
+    opacity:1;
+    width: 150%;
+}
+
+.main_footer_copy {background-color:#dfa7be; width:100%; float:left; text-align:center; padding:1.5em 0em;}
+.main_footer_copy p {font-family: 'Libre Baskerville', serif; font-family: 'Lora', serif; font-size:1em; color:#ffcde7; height:20px;}
+.main_footer_copy .m-b-footer   {margin-bottom:0.5em;}
+.main_footer_copy .by   {font-size:0.96em;}
+.main_footer_copy .by a       {color:#740083; text-decoration:none;}
+.main_footer_copy .by a:hover {text-decoration:underline;}
+.main_footer_copy .by i {font-size:0.96em; margin-right:3px; color:#e82626;}
+
+@media (min-width:48em){
+.colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
+.colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
+}
+/*fim footer*/

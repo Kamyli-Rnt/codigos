@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dela Gothic One', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e290b5;
+}
+
+.main_cad {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff00a2, #ff008e);
+}
+
+.left_cad {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: #1f1d1d;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px #ff00a2;
+}
+
+.card_cad {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.entrada > input,
+.entrada > select {
+    width: 100%;
+    border: 3px solid #ff00a2;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #be92beb6;
+    color: #f0ffffde;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    outline: none;
+}
+
+.entrada input:focus {
+    border-color: #ff00a2;
+}
+
+.entrada > label {
+    color: #ff00a2;
+    font-size: 14px;
+}
+
+.entrada > button {
+    color: #ffffff;
+    margin-bottom: 10px;
+    background-color: #ff00a2;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+.entrada > button:hover {
+    background-color: #ff008e;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .left_cad {
+        width: 85%;
+    }
+}

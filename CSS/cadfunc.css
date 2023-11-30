@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: center;
+    background-color: #e290b5;
+    justify-content: left;
+}
+
+.logo1 {
+    position: relative;
+    width: 230px;
+    bottom: 7px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens li a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fceaff;
+}
+
+.p1 {
+    display: flex;
+    gap: 50px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #e3c6e9;
+}
+
+.formCadastro {
+    width: 35%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+}
+
+.areaCadastro img {
+    width: 420px;
+}
+
+.formCadastro h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formCadastro p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formCadastro input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #000; /* Black border */
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+    width: 100%;
+    color: #000; /* Black text color */
+}
+
+.formCadastro input:focus {
+    border: 1px solid #c1829d;
+}
+
+.formCadastro label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formCadastro a {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formCadastro a:hover {
+    color: #c1829d;
+}
+
+.btn {
+    background-color: #c1829d;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #e7b7cc;
+}

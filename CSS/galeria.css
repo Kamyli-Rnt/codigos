@@ -1,0 +1,132 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #f8d0e5;
+}
+/*inicio navbar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #e290b5;
+    height: 13vh;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+   bottom: 5px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-itens li a:hover{
+    
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration:underline;
+    
+
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+}
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+/*fim nav*/
+
+
+.mydict div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.mydict input[type="radio"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.mydict input[type="radio"]:checked + span {
+  box-shadow: 0 0 0 0.0625em #ed00c5;
+  background-color: #fcdeff;
+  z-index: 1;
+  color: #ed00c5;
+}
+
+label span {
+  display: block;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0.375em .75em;
+  position: relative;
+  margin-left: .0625em;
+  box-shadow: 0 0 0 0.0625em #fcdeff;
+  letter-spacing: .05em;
+  color: #633e63;
+  text-align: center;
+  transition: background-color .5s ease;
+}
+
+label:first-child span {
+  border-radius: .375em 0 0 .375em;
+}
+
+label:last-child span {
+  border-radius: 0 .375em .375em 0;
+}

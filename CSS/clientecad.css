@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fceaff;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e290b5;
+}
+
+.p1 {
+    display: flex;
+    gap: 50px;
+}
+
+.formCadastro {
+    width: 35%;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.areaCadastro img {
+    width: 100%;
+    max-width: 400px; /* Responsive image max-width */
+    margin-bottom: 20px;
+}
+
+.formCadastro h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+    color: #c1829d;
+}
+
+.formCadastro p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formCadastro input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    outline: none;
+    width: 100%;
+}
+
+.formCadastro input:focus {
+    border: 1px solid #c1829d;
+    box-shadow: 0 0 10px rgba(193, 130, 157, 0.5);
+}
+
+.formCadastro label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formCadastro a {
+    font-size: 13px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.formCadastro a:hover {
+    color: #c1829d;
+}
+
+.btn {
+    background-color: #c1829d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #e7b7cc;
+}

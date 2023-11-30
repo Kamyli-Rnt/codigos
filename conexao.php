@@ -1,14 +1,16 @@
 <?php
-function conectar()
-{
-
+function conectar(){
     $host = 'localhost';
-    $db = 'tcc';
+    $db = 'Toda Bella';
     $user = 'root';
-    $password = '';
-    
+    $pass = '';
 
-    $dsn = ("mysql:host=$host;dbname=$db");
-    $pdo = new PDO($dsn, $user, $password );
-    return $pdo;
+    try {
+        $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return $pdo;
+    } catch (PDOException $e) {
+        die("Erro na conexão: " . $e->getMessage());
+    }
 }
+?>

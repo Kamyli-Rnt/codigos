@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: #be92beb6;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cormorant', serif;
+    align-items: center;
+    background-color: #e290b5;
+    height: 13vh;
+    justify-content: left;
+}
+
+.logo1{
+    position: relative;
+    width: 230px;
+    bottom: 7px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.nav-itens li a{
+    list-style: none;
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+        transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.nav-itens li a:hover{
+    color: rgb(187, 37, 187);
+    transform: scale(1.1);
+}
+
+
+.container { 
+    max-width: 100%;
+    position: relative;
+    margin: auto; 
+}
+
+center{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+
+th{
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.table-dark th{
+    background-color: #e290b5;
+    border-color: white;
+}
+
+td{
+    font-size: 16px;
+    margin: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn-warning {
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: #e290b5;
+    border: none;
+    padding-left: 15px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.btn-warning:hover{
+    background-color: purple;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+.btn-danger{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: #e290b5;
+    border: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+    padding-left: 15px;
+}
+
+.btn-danger:hover{
+    background-color: red;
+    color: aliceblue;
+    transform: scale(1.1);
+}
